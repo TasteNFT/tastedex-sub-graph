@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: DesireNFT is a decentralized protocol for automated token exchange on Binance Smart Chain.
-repository: https://github.com/DesireNFT
+repository: https://github.com/TasteNFT
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: bsc
     source:
-      address: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
+      address: '0x789A39AE5eE2dc6b1B8886b7AaF0e399e1E7Cad4'
       abi: Factory
-      startBlock: 6809737
+      startBlock: 14867509
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
